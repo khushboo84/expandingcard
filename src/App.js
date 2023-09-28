@@ -48,7 +48,7 @@ function App() {
         <div className="mt-12 flex flex-col md:flex-row justify-center items-center gap-5">
           {[0, 1, 2, 3, 4].map((index) => (
             <motion.div
-              className={`card h-[700px] bg-cover bg-center rounded-[40px]  ${
+              className={`card h-[500px] bg-cover bg-center rounded-[40px]  ${
                 index === expandedIndex ? "expanded" : ""
               }`}
               key={index}
